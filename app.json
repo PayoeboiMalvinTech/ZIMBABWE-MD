@@ -1,0 +1,34 @@
+{
+  "name": "ZIMBABWE-MD",
+  "description": "ZIMBABWE-MD has been designed to make things easier and fun while using WhatsApp. 👨‍💻❤️",
+  "logo": "https://files.catbox.moe/bcde3x.jpg",
+  "keywords": ["zimbabwemd", "bot", "whatsapp bot", "multi device", "zimbabwe-md"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true
+    },
+    "GITHUB_AUTH_TOKEN": {
+      "description": "Put the github auth token here.",
+      "required": true
+    },
+"GITHUB_USER_NAME": {
+      "description": "Put the your github user name.",
+      "required": true
+    },
+  "OWNER_NUMBER": {
+      "description": "Put the your bot number.",
+      "required": true
+    }
+},
+         "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+  
+  
+}
